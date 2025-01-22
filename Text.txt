@@ -3,6 +3,8 @@ Inv 1 (ㅤ)
 Inv 2 (⠀)
 cd back (cd ..)
 Resize (printf '\e[8;27;80t')
+Floating window look (printf '\e[8;50;184t')
+
 ----------------------------------------------
 
 # Function to display the menu and get user input
