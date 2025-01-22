@@ -26,7 +26,7 @@ show_menu() {
 while true; do
   show_menu
 
-  case "$choice" in¬
+  case "$choice" in
     1)
       echo "Loading..."
       cd ..
@@ -39,16 +39,21 @@ while true; do
       cd ..
       cd Scripts
       ./RSP.sh
-       break
+      break
       ;;
     3)
       echo "Loading..."
-       break
+      break
       ;;
     4)
       echo "Exiting..."
       break
       ;;
+    Plane)
+      cd ..
+      cd Scripts
+      ./Plane.sh
+     ;;
     *)
       echo "Invalid Choice"
       ;;
