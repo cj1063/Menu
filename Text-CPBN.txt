@@ -1,0 +1,52 @@
+https://textfancy.com/text-art/
+Inv 1 (ㅤ)
+Inv 2 (⠀)
+cd back (cd ..)
+Resize (printf '\e[8;27;80t')
+----------------------------------------------
+
+# Function to display the menu and get user input
+show_menu() {
+  clear  # Clear the screen
+  echo "Select an option:"
+  echo "1. Option 1"
+  echo "2. Option 2"
+  echo "3. Option 3"
+  echo "4. Exit"
+  read -p "Enter your choice: " choice
+}
+
+# Main loop
+while true; do
+  show_menu
+
+  case "$choice" in
+    1)
+      echo "You selected Option 1"
+      # Code for Option 1 goes here
+      sleep 2 # Pause for demonstration
+      ;;
+    2)
+      echo "You selected Option 2"
+      # Code for Option 2 goes here
+       sleep 2
+      ;;
+    3)
+      echo "You selected Option 3"
+      # Code for Option 3 goes here
+       sleep 2
+      ;;
+    4)
+      echo "Exiting..."
+      break # Exit the loop
+      ;;
+    *)
+      echo "Invalid choice. Please try again."
+      sleep 1
+      ;;
+  esac
+done
+
+echo "Program finished."
+
+----------------------------------------------
