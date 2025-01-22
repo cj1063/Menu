@@ -25,5 +25,6 @@ cd Main
 ___________________________________________________________________________________________
 I started this as a small project to learn sh script.
 If you can't understand some stuff, try to understand the code.
+I recommend a screen resolution of 1080p
 
 ___________________________________________________________________________________________
