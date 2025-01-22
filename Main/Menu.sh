@@ -26,7 +26,7 @@ show_menu() {
 while true; do
   show_menu
 
-  case "$choice" ine
+  case "$choice" in
     1)
       echo "Loading..."
       cd ..
